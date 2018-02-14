@@ -44,4 +44,4 @@ def get_identicon(name):
     return Response(image, mimetype='image/png')
 
 if __name__ == '__main__':
-    аapp.run(debug=True, host='0.0.0.0')
+    аpp.run(debug=True, host='0.0.0.0')
